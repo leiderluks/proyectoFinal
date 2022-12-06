@@ -6,12 +6,11 @@ export function Home(){
     return(
         <>
             <section>
-                <div class= "banner">
-
-                </div>
+                <div class= "banner"></div>
             </section>
             <section>
                 <div class= "container">
+                
                     <div class="row">
                         <div class="col-12 col-md-8 container">
                             <h2>AC/DC</h2>
@@ -78,15 +77,25 @@ export function Home(){
 
             <section>
                 <div class="container-fluid mt-4">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>NOTICIAS</h1>
+                        <hr/>
+                    </div>
+                </div>
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <img src="https://firebasestorage.googleapis.com/v0/b/spotyllp.appspot.com/o/noticia1.webp?alt=media&token=43bca0e2-45fc-4559-b06c-ca01860679ef" alt="" class="img-fluid w-100 noticia"></img>
+                            <p>De acuerdo con la cuenta especializada en eventos musicales, MusicTrends Colombia, la banda de hard rock británica- australiana AC/DC planea iniciar una gira por el mundo en el 2023 como parte de la promoción de su último álbum de estudio, que se vio interrumpida por la pandemia de covid-19.</p>
                         </div>
                         <div class="col-12 col-md-4">
                             <img src="https://firebasestorage.googleapis.com/v0/b/spotyllp.appspot.com/o/noticia4.jpg?alt=media&token=629c51fc-1335-4145-b6d1-862af6b3006a" alt="" class="img-fluid w-100 noticia"></img>
+                            <p>El primer aviso llegó poco antes de la salida del decimosexto álbum de la banda, Rock or Bust (2014): AC/DC anunciaba en un comunicado que el cofundador y guitarrista Malcolm Young padecía demendecia, lo que le obligaba a dejar la banda, posiblemente, para siempre. Así fue: falleció el pasado 18 de noviembre.</p>
                         </div>
                         <div class="col-12 col-md-4">
                             <img src="https://firebasestorage.googleapis.com/v0/b/cinemaleiderlucas.appspot.com/o/not4.jpg?alt=media&token=a3a32e99-e3df-423b-93d5-242e80b12c46" alt="" class="img-fluid w-100 noticia"></img>
+                            <p>¿Quién canta en AC DC 2022? <br/>
+                            De esta manera, Axl Rose, Slash y Duff McKagan pisarán nuevamente el Monumental, adonde ya tocaron en 1992 y 1993. El tramo South American Tour 2022 es la continuación de su gira Not in This Lifetime Tour, el cual marcó el reencuentro del núcleo original de la banda luego de varios años de distanciamiento.</p>
                         </div>
 
                         
