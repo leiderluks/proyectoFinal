@@ -37,18 +37,18 @@ export function Integrantes(){
     return(
         <>
            <h1>{titulo}</h1>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 g-5">
+            <div className ="container">
+                <div className ="row row-cols-1 row-cols-md-3 g-5">
 
                     {
                         integrantes.map(function(integrante){
                             return(
                                 <>
-                                    <div class="col">
-                                        <div class="card h-100 shadow">
-                                            <h1 class="text-center">{integrante.nombre}</h1>
-                                            <img src={integrante.foto} alt="foto" class="h-100 img-fluid w-100"/>
-                                            <h1 class="text-center">{integrante.Biografia}</h1>
+                                    <div className ="col">
+                                        <div className ="card h-100 shadow">
+                                            <h1 className ="text-center">{integrante.nombre}</h1>
+                                            <img src={integrante.foto} alt="foto" className ="h-100 img-fluid w-100"/>
+                                            <h1 className ="text-center">{integrante.Biografia}</h1>
                                         </div>
                                     </div>
                                     
