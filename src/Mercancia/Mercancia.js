@@ -21,12 +21,15 @@ export function Mercancia(){
         {
             nombre:"Camiseta AC/DC",
             foto:"https://firebasestorage.googleapis.com/v0/b/cinemaleiderlucas.appspot.com/o/camisetaac.webp?alt=media&token=b025235d-2d37-4ac0-8de6-a1b899ff09d9",
-            precio:"$100.000"
+            precio:"$100.000",
+            descripcion: "Camisetas AC/DC Style ORIGINAL BTO Estampado a color sobre tela a color (100% algodón natural, pintura amigable con el medio ambiente.) ¡ENVIO A TODA COLOMBIA! ¡La disponibilidad de estas prendas es limitada, no pierdas tu oportunidad! "
+            
         },
         {
             nombre:"Cassette 1890 AC/DC",
             foto:"https://firebasestorage.googleapis.com/v0/b/cinemaleiderlucas.appspot.com/o/cassette.jpg?alt=media&token=f7007ade-2f16-4d06-8699-c5469dc39210",
-            precio:"$30.000.000"
+            precio:"$30.000.000",
+            descripcion: "ROCK TOYS rocktoysrecords Todos nuestros 100% originales. Todos usados como nuevos en excelente estado. Las cajas de los CDS son nuevas. Todos nuestros CDS prensados en Estados Unidos, versión USA."
         },
         {
             nombre:"Poster AC/DC Primer concierto",
