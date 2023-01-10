@@ -26,10 +26,10 @@ export function AmpliarInfo(){
 
                         <br/>
                         <i class="bi bi-truck mt-5 fs-1 text-success">
-                            <span className="text-success text-bold fuente " > Envio gratis a nivel nacional</span></i>
-                        <p>Conoce los tiempos y las formas de envio</p>
+                            <span className="text-success text-bold fuente " > Envio Gratis a Nivel Nacional</span></i>
+                        <p>Conoce los tiempos y las formas de envio.</p>
 
-                        <i class="bi bi-arrow-clockwise devolucion "><span className="text-success text-bold fuente "> Devolucion gratis</span></i>
+                        <i class="bi bi-arrow-clockwise text-success devolucion "><span className="text-success text-bold fuente "> Devolucion Gratis</span></i>
                         <p>30 dias para reembolsos</p>
                         
                         <h4 className="fw-bold">Descripcion</h4>

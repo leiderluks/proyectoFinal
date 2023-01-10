@@ -34,22 +34,26 @@ export function Mercancia(){
         {
             nombre:"Poster AC/DC Primer concierto",
             foto:"https://firebasestorage.googleapis.com/v0/b/cinemaleiderlucas.appspot.com/o/poster.jpg?alt=media&token=39535192-47dd-4a3d-ac40-93f4b45afa08",
-            precio:"$500.000.000"
+            precio:"$500.000.000",
+            descripcion: "Puede personalizar sus dimensiones y contenido, Una obra de arte que se puede personalizar para decorar tus paredes, Se enviará como .jpg después de la compra."
         },
         {
             nombre:"vinilo antiguo AC/DC",
             foto:"https://firebasestorage.googleapis.com/v0/b/cinemaleiderlucas.appspot.com/o/viniloAc.webp?alt=media&token=aef38c5a-9a66-4964-b3a7-c0476b082d4f",
-            precio:"$90.000.000"
+            precio:"$90.000.000",
+            descripcion: "1980 Ac/dc You Shook Me All Night Long 7 Single, En muy buenas condiciones como se muestra en las fotografías."
         },
         {
             nombre:"Guitarra AC/DC",
             foto:"https://firebasestorage.googleapis.com/v0/b/cinemaleiderlucas.appspot.com/o/guitarra.jpg?alt=media&token=9ce2125d-2ec0-4fdb-962e-63f69de6b235",
-            precio:"$100.000.000"
+            precio:"$100.000.000",
+            descripcion: "Autografiado en persona por: Brian Johnson, Angus Young, Malcolm Young, Cliff Williams y Phil Rudd ¡Ofrecemos una garantía del 100% de autenticidad! Todos los artículos comprados vienen con un certificado de autenticidad, insisten en la autenticación de terceros, trabajamos exclusivamente con coleccionistas y autenticación de terceros para garantizar que cada artículo sea absolutamente auténtico."
         },
         {
             nombre:"Bocina AC/DC",
             foto:"https://firebasestorage.googleapis.com/v0/b/cinemaleiderlucas.appspot.com/o/bocina.jpg?alt=media&token=380e593b-dc1a-4175-a897-6850074335b2",
-            precio:"$20.000.000"
+            precio:"$20.000.000",
+            descripcion: "Esta es una caja de madera única - Está hecha exclusivamente por mi equipo de madera Es hermoso real hecho a mano, pintado e impreso en 6-8 horas de trabajo !!! Caja de madera HQ hecha en Transilvania - no es una caja de madera china"
         }
     ]
 
