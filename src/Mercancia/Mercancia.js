@@ -72,6 +72,7 @@ export function Mercancia(){
                                             <h1 className ="text-center">{producto.nombre}</h1>
                                             <img src={producto.foto} alt="foto" className ="h-100 img-fluid w-100"/>
                                             <h1 className ="text-center">{producto.precio}</h1>
+                                            <h2></h2>
 
                                             <button className="btn btn-primary mx-5 my-3" onClick={
                                                 function(){
