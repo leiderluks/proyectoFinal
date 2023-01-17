@@ -1,5 +1,6 @@
 import { Footer } from "../shared/Footer/Footer"
 import { useNavigate } from "react-router-dom"
+import './Mercancia.css'
 export function Mercancia(){
 
     //Activamos la navegacion entre componentes
@@ -69,10 +70,10 @@ export function Mercancia(){
                                 <div key={id}>
                                     <div className ="row">
                                         
-                                        <div className ="card h-100 shadow">
+                                        <div className ="card cardMercancia shadow">
                                             <h1 className ="text-center fs-2">{producto.nombre}</h1>
-                                            <img src={producto.foto} alt="foto" className ="h-80 img-fluid w-100"/>
-                                            <h1 className ="text-center fs-3">{producto.precio}</h1>
+                                            <img src={producto.foto} alt="foto" className =" img-fluid  imagenM"/>
+                                            <h1 className ="text-center fs-3">Precio: {producto.precio}</h1>
                                             <h2></h2>
                                             <button className="btn btn-primary mx-5 my-3" onClick={
                                             function(){

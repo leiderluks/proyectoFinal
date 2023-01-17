@@ -40,6 +40,7 @@ export function Musica(){
                                         <img src={cancion.album.images[0].url} className ="h-100 img-fluid w-       100"></img>
                                         <h1 className="text-center fs-6">{cancion.name}</h1>
                                         <audio controls src={cancion.preview_url}></audio>
+                                        <h5 className="text-center fs-5">popularity: {cancion.popularity}</h5>
                                         </div>
                                     </div>
                                 </div>
