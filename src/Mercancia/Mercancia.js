@@ -1,5 +1,5 @@
 import { Footer } from "../shared/Footer/Footer"
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"
 export function Mercancia(){
 
     //Activamos la navegacion entre componentes
@@ -32,13 +32,13 @@ export function Mercancia(){
             descripcion: "ROCK TOYS rocktoysrecords Todos nuestros 100% originales. Todos usados como nuevos en excelente estado. Las cajas de los CDS son nuevas. Todos nuestros CDS prensados en Estados Unidos, versión USA."
         },
         {
-            nombre:"Poster AC/DC Primer concierto",
+            nombre:"Poster AC/DC",
             foto:"https://firebasestorage.googleapis.com/v0/b/cinemaleiderlucas.appspot.com/o/poster.jpg?alt=media&token=39535192-47dd-4a3d-ac40-93f4b45afa08",
             precio:"$500.000.000",
             descripcion: "Puede personalizar sus dimensiones y contenido, Una obra de arte que se puede personalizar para decorar tus paredes, Se enviará como .jpg después de la compra."
         },
         {
-            nombre:"vinilo antiguo AC/DC",
+            nombre:"Vinilo Antiguo AC/DC",
             foto:"https://firebasestorage.googleapis.com/v0/b/cinemaleiderlucas.appspot.com/o/viniloAc.webp?alt=media&token=aef38c5a-9a66-4964-b3a7-c0476b082d4f",
             precio:"$90.000.000",
             descripcion: "1980 Ac/dc You Shook Me All Night Long 7 Single, En muy buenas condiciones como se muestra en las fotografías."
@@ -68,19 +68,20 @@ export function Mercancia(){
                             return(                              
                                 <div key={id}>
                                     <div className ="row">
+                                        
                                         <div className ="card h-100 shadow">
-                                            <h1 className ="text-center">{producto.nombre}</h1>
-                                            <img src={producto.foto} alt="foto" className ="h-100 img-fluid w-100"/>
-                                            <h1 className ="text-center">{producto.precio}</h1>
+                                            <h1 className ="text-center fs-2">{producto.nombre}</h1>
+                                            <img src={producto.foto} alt="foto" className ="h-80 img-fluid w-100"/>
+                                            <h1 className ="text-center fs-3">{producto.precio}</h1>
                                             <h2></h2>
-
                                             <button className="btn btn-primary mx-5 my-3" onClick={
-                                                function(){
-                                                    detectarEvento(producto)
+                                            function(){
+                                                detectarEvento(producto)
                                                 }
                                             }>Ampliar</button>
 
                                         </div>
+                                        
                                     </div>                                      
                                 </div>
                             )

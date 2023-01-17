@@ -13,7 +13,7 @@ export function Musica(){
             setCanciones(respuesta)
             setEstadoCarga(false)
         })
-
+        
     },[])
 
     //render del componente
@@ -21,7 +21,7 @@ export function Musica(){
 
         return(
             <>
-                <h2>Estamos cargando las canciones</h2>
+                <h2>canciones</h2>
             </>
         )
 
@@ -31,22 +31,22 @@ export function Musica(){
             <>
                 <h2>canciones de la Banda</h2>
                 <div className ="row row-cols-1 row-cols-md-5 g-5">
-                {
-                    canciones.tracks.map(function(cancion){
-                        return(
-                            <div className="col">
-                                <div className ="card h-100 shadow">
-                                
-                                <img src={cancion.album.images[0].url} className ="h-100 img-fluid w-100"></img>
-                                <h1 className="text-center">{cancion.name}</h1>
-                                <audio controls src={cancion.preview_url}></audio>
+                    {
+                        canciones.tracks.map(function(cancion,id){
+                            return(
+                                <div key={id}>
+                                    <div className="col">
+                                        <div className ="card h-100 shadow">                                       
+                                        <img src={cancion.album.images[0].url} className ="h-100 img-fluid w-       100"></img>
+                                        <h1 className="text-center fs-6">{cancion.name}</h1>
+                                        <audio controls src={cancion.preview_url}></audio>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            
-                        )
-                    })
-                }
-
+                                
+                            )
+                        })
+                    }
                 </div>
                 
             </>
